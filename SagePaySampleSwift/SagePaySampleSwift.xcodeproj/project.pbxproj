@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873765CA206BFD6A005289B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873765C9206BFD6A005289B3 /* AppDelegate.swift */; };
+		873765CC206BFD6A005289B3 /* PaymentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873765CB206BFD6A005289B3 /* PaymentDetailsVC.swift */; };
+		873765CF206BFD6A005289B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873765CD206BFD6A005289B3 /* Main.storyboard */; };
+		873765D1206BFD6A005289B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873765D0206BFD6A005289B3 /* Assets.xcassets */; };
+		873765D4206BFD6A005289B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873765D2206BFD6A005289B3 /* LaunchScreen.storyboard */; };
+		873765E0206BFDDF005289B3 /* SagePayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873765DF206BFDDF005289B3 /* SagePayVC.swift */; };
+		873765E2206BFDF2005289B3 /* SagePaySuccessOrFailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873765E1206BFDF2005289B3 /* SagePaySuccessOrFailVC.swift */; };
+		873765E6206BFE0B005289B3 /* SagePayConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873765E5206BFE0B005289B3 /* SagePayConfig.swift */; };
+		8783A195206C9FCF004A088C /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8783A194206C9FCF004A088C /* NSData+Base64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		873765C6206BFD6A005289B3 /* SagePaySampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SagePaySampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873765C9206BFD6A005289B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		873765CB206BFD6A005289B3 /* PaymentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsVC.swift; sourceTree = "<group>"; };
+		873765CE206BFD6A005289B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873765D0206BFD6A005289B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		873765D3206BFD6A005289B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873765D5206BFD6A005289B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873765DF206BFDDF005289B3 /* SagePayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagePayVC.swift; sourceTree = "<group>"; };
+		873765E1206BFDF2005289B3 /* SagePaySuccessOrFailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagePaySuccessOrFailVC.swift; sourceTree = "<group>"; };
+		873765E5206BFE0B005289B3 /* SagePayConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SagePayConfig.swift; sourceTree = "<group>"; };
+		8783A192206C9FCE004A088C /* SagePaySampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SagePaySampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		8783A193206C9FCF004A088C /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		8783A194206C9FCF004A088C /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873765C3206BFD6A005289B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873765BD206BFD6A005289B3 = {
+			isa = PBXGroup;
+			children = (
+				873765C8206BFD6A005289B3 /* SagePaySampleSwift */,
+				873765C7206BFD6A005289B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873765C7206BFD6A005289B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873765C6206BFD6A005289B3 /* SagePaySampleSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873765C8206BFD6A005289B3 /* SagePaySampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				878CFC6E2073397E00DBC6FF /* PaymentDetailsVC */,
+				8783A191206C9FB3004A088C /* Data+Base64 */,
+				873765DE206BFDC9005289B3 /* SagePayVC */,
+				873765DD206BFDC0005289B3 /* SagePaySuccessOrFailVC */,
+				873765DB206BFDA8005289B3 /* SagePayConfig */,
+				873765C9206BFD6A005289B3 /* AppDelegate.swift */,
+				8783A192206C9FCE004A088C /* SagePaySampleSwift-Bridging-Header.h */,
+				873765CD206BFD6A005289B3 /* Main.storyboard */,
+				873765D0206BFD6A005289B3 /* Assets.xcassets */,
+				873765D2206BFD6A005289B3 /* LaunchScreen.storyboard */,
+				873765D5206BFD6A005289B3 /* Info.plist */,
+			);
+			path = SagePaySampleSwift;
+			sourceTree = "<group>";
+		};
+		873765DB206BFDA8005289B3 /* SagePayConfig */ = {
+			isa = PBXGroup;
+			children = (
+				873765E5206BFE0B005289B3 /* SagePayConfig.swift */,
+			);
+			path = SagePayConfig;
+			sourceTree = "<group>";
+		};
+		873765DD206BFDC0005289B3 /* SagePaySuccessOrFailVC */ = {
+			isa = PBXGroup;
+			children = (
+				873765E1206BFDF2005289B3 /* SagePaySuccessOrFailVC.swift */,
+			);
+			path = SagePaySuccessOrFailVC;
+			sourceTree = "<group>";
+		};
+		873765DE206BFDC9005289B3 /* SagePayVC */ = {
+			isa = PBXGroup;
+			children = (
+				873765DF206BFDDF005289B3 /* SagePayVC.swift */,
+			);
+			path = SagePayVC;
+			sourceTree = "<group>";
+		};
+		8783A191206C9FB3004A088C /* Data+Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				8783A193206C9FCF004A088C /* NSData+Base64.h */,
+				8783A194206C9FCF004A088C /* NSData+Base64.m */,
+			);
+			path = "Data+Base64";
+			sourceTree = "<group>";
+		};
+		878CFC6E2073397E00DBC6FF /* PaymentDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				873765CB206BFD6A005289B3 /* PaymentDetailsVC.swift */,
+			);
+			path = PaymentDetailsVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873765C5206BFD6A005289B3 /* SagePaySampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873765D8206BFD6A005289B3 /* Build configuration list for PBXNativeTarget "SagePaySampleSwift" */;
+			buildPhases = (
+				873765C2206BFD6A005289B3 /* Sources */,
+				873765C3206BFD6A005289B3 /* Frameworks */,
+				873765C4206BFD6A005289B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SagePaySampleSwift;
+			productName = SagePaySampleSwift;
+			productReference = 873765C6206BFD6A005289B3 /* SagePaySampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873765BE206BFD6A005289B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Pawan;
+				TargetAttributes = {
+					873765C5206BFD6A005289B3 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 873765C1206BFD6A005289B3 /* Build configuration list for PBXProject "SagePaySampleSwift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873765BD206BFD6A005289B3;
+			productRefGroup = 873765C7206BFD6A005289B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873765C5206BFD6A005289B3 /* SagePaySampleSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873765C4206BFD6A005289B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873765D4206BFD6A005289B3 /* LaunchScreen.storyboard in Resources */,
+				873765D1206BFD6A005289B3 /* Assets.xcassets in Resources */,
+				873765CF206BFD6A005289B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873765C2206BFD6A005289B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873765E6206BFE0B005289B3 /* SagePayConfig.swift in Sources */,
+				873765CC206BFD6A005289B3 /* PaymentDetailsVC.swift in Sources */,
+				8783A195206C9FCF004A088C /* NSData+Base64.m in Sources */,
+				873765E2206BFDF2005289B3 /* SagePaySuccessOrFailVC.swift in Sources */,
+				873765E0206BFDDF005289B3 /* SagePayVC.swift in Sources */,
+				873765CA206BFD6A005289B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		873765CD206BFD6A005289B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873765CE206BFD6A005289B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873765D2206BFD6A005289B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873765D3206BFD6A005289B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873765D6206BFD6A005289B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		873765D7206BFD6A005289B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873765D9206BFD6A005289B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SagePaySampleSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.SagePaySampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SagePaySampleSwift/SagePaySampleSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		873765DA206BFD6A005289B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SagePaySampleSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.SagePaySampleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SagePaySampleSwift/SagePaySampleSwift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873765C1206BFD6A005289B3 /* Build configuration list for PBXProject "SagePaySampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873765D6206BFD6A005289B3 /* Debug */,
+				873765D7206BFD6A005289B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873765D8206BFD6A005289B3 /* Build configuration list for PBXNativeTarget "SagePaySampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873765D9206BFD6A005289B3 /* Debug */,
+				873765DA206BFD6A005289B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 873765BE206BFD6A005289B3 /* Project object */;
+}
