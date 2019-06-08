@@ -1,24 +1,26 @@
 
-SagePaySampleSwift
+# Sage Pay Sample iOS (Swift)
+
 =========
 
-## SagePaySampleSwift.
+## Sage Pay Sample iOS (Swift)
+
 ------------
  Added Some screens here.
  
  Visualization of SagePay Failed Page http://pawankv89.github.io/SagePayFailed/index.html
  Visualization of SagePay Success Page http://pawankv89.github.io/SagePaySuccess/index.html
 
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/1.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/2.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/3.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/4.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/5.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/6.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/7.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/8.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/9.png)]
-[![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/10.png)]
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/1.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/2.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/3.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/4.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/5.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/6.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/7.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/8.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/9.png)
+![](https://github.com/pawankv89/SagePaySampleSwift/blob/master/Screens/10.png)
 
 
 ## Usage
